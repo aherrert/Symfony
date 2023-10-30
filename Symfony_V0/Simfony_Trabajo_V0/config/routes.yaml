@@ -1,0 +1,7 @@
+api_about_us:
+    path: /about-us
+    controller: App\Controller\ApiController::getAboutUsInfo
+
+api_contact:
+    path: /contact
+    controller: App\Controller\ApiController::getContactInfo
